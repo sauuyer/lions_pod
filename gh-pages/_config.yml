@@ -1,0 +1,35 @@
+# Site Information
+title: "Lions Pod Draft Site"            # The title of your site
+url: "https://yourusername.github.io"  # Your site's URL (or custom domain)
+baseurl: ""                          # Base URL (e.g., /blog); leave empty if deploying to root
+
+# Theme
+theme: minima                        # Use a Jekyll theme, like minima or cayman
+
+# Markdown Processing
+markdown: kramdown                   # Specify Markdown engine (default: kramdown)
+kramdown:
+  input: GFM                         # Use GitHub Flavored Markdown (GFM)
+
+# Permalink Settings
+permalink: pretty                    # Pretty permalinks (e.g., /about instead of /about.html)
+
+# Plugins (Optional)
+plugins:
+  - jekyll-feed                      # For RSS feed generation
+  - jekyll-seo-tag                   # For SEO meta tags
+
+# Exclude/Include Files
+exclude:                             # Files or directories to exclude from the build
+  - README.md
+  - node_modules/
+include:                             # Specific files to include in the build
+  - .htaccess
+
+# Pagination (Optional)
+paginate: 5                          # Number of posts per page
+paginate_path: "/page:num/"          # Path for paginated pages
+
+# Build Settings
+future: true                         # Include posts with future dates
+show_drafts: false                   # Include drafts in the build
