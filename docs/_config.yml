@@ -1,7 +1,7 @@
 # Site Information
 title: "Lions Pod Draft Site"            # The title of your site
-url: "https://yourusername.github.io"  # Your site's URL (or custom domain)
-baseurl: ""                          # Base URL (e.g., /blog); leave empty if deploying to root
+url: "https://sauuyer.github.io/lions_pod/"  # Your site's URL (or custom domain)
+baseurl: "/docs"                          # Base URL (e.g., /blog); leave empty if deploying to root
 
 # Theme
 theme: minima                        # Use a Jekyll theme, like minima or cayman
